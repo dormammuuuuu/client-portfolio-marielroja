@@ -2,6 +2,10 @@
 /*! tinyreset.css v0.1.0 | github.com/shankariyerr/tinyreset */
 @import url("https://use.typekit.net/ojv4ekx.css");
 
+html, body{
+    scroll-behavior: smooth;
+}
+
 a,
 body,
 div,
@@ -774,7 +778,10 @@ print {
 }
 
 @media screen and (max-width: 1023px) {
-
+    .navbar-menu.is-active {
+        display: block;
+    }
+    m
     .column.is-12-touch {
         flex: none;
         width: 100%;
@@ -1277,7 +1284,7 @@ footer .copyright {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #141c3a;
+    background-color: #8C6E62;
 }
 
 .is-form-page .container {
@@ -1330,5 +1337,3 @@ footer .copyright {
     font-weight: 400;
     height: auto;
 }
-
-/*# sourceMappingURL=main.css.map */
