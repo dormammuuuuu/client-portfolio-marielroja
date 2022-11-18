@@ -1115,6 +1115,10 @@ a:hover {
     transform: translateX(-50%);
 }
 
+.dl-icon{
+    margin-right: 15px;
+}
+
 .download:hover{
     background-color: white;
     color: #141c3a;
