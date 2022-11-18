@@ -1020,7 +1020,7 @@ a:hover {
 
 .my-link{
     margin-right: 10px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .button.is-outlined {
@@ -1100,8 +1100,24 @@ a:hover {
 }
 
 .avatar {
-    margin: 2rem 0;
+    margin: 2rem auto;
     width: 150px;
+}
+
+.download{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.download:hover{
+    background-color: white;
+    color: #141c3a;
 }
 
 @media screen and (min-width: 769px) {
