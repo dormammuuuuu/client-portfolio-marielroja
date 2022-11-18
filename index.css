@@ -1010,6 +1010,19 @@ a:hover {
     font-family: "europa", sans-serif;
 }
 
+.tag:not(body).is-link.is-light {
+    background-color: #ebf5ff;
+    color: #0068d1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.my-link{
+    margin-right: 10px;
+    font-size: 14px;
+}
+
 .button.is-outlined {
     border-width: 2px;
 }
